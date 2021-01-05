@@ -1,6 +1,6 @@
 package com.geekbrains.shop.service;
 
-import com.geekbrains.shop.domain.User;
+import com.geekbrains.shop.entities.User;
 import com.geekbrains.shop.dto.UserDto;
 import org.springframework.security.core.userdetails.UserDetailsService;
 

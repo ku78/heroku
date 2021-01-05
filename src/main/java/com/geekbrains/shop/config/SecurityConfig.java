@@ -1,7 +1,7 @@
-package com.example.demo.config;
+package com.geekbrains.shop.config;
 
-import com.example.demo.domain.Role;
-import com.example.demo.service.UserService;
+import com.geekbrains.shop.entities.Role;
+import com.geekbrains.shop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

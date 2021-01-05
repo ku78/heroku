@@ -1,8 +1,8 @@
-package com.example.demo.dao;
+package com.geekbrains.shop.dao;
 
-import com.example.demo.domain.Cart;
-import com.example.demo.domain.Order;
-import com.example.demo.domain.User;
+import com.geekbrains.shop.entities.Cart;
+import com.geekbrains.shop.entities.Order;
+import com.geekbrains.shop.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
