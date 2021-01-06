@@ -16,3 +16,9 @@ logging:
 server:
   hostname: localhost
   port: ${PORT:8080}
+mail:
+  server:
+    host: smtp.beget.com
+    port: 25
+    username: 78@78.ru
+    password: ${hidden.email.password}
